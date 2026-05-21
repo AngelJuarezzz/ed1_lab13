@@ -9,4 +9,8 @@ public class CartRequest {
     public List<CartItemRequest> getCartItems() {
         return cartItems;
     }
+
+    public void setCartItems(List<CartItemRequest> cartItems) {
+        this.cartItems = cartItems;
+    }
 }

@@ -13,4 +13,12 @@ public class UpdateProductRequest {
     public int getQuantity() {
         return quantity;
     }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 }
